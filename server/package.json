@@ -1,0 +1,45 @@
+{
+  "name": "cloud-ide",
+  "version": "1.0.0",
+  "description": "A powerful web-based cloud IDE for collaborative development, real-time coding, and seamless deployment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [
+    "cloud-ide",
+    "online-code-editor",
+    "web-ide",
+    "real-time-coding",
+    "collaborative-development",
+    "nodejs",
+    "express",
+    "docker",
+    "kubernetes",
+    "mongodb",
+    "react",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Vinod Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-pty": "^1.0.0",
+    "nodemon": "^3.1.9",
+    "os": "^0.1.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repo/cloud-ide.git"
+  },
+  "homepage": "https://cloud-ide.com"
+}
